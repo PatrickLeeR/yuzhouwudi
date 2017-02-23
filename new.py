@@ -1,6 +1,5 @@
 from PIL import Image
 import argparse
-parser=argparse.ArgumentParser()
 parser.add_argument('file')
 parser.add_argument('-o','--output')
 parser.add_argument('--width',type=int,default=80)
